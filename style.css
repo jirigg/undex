@@ -1,0 +1,19 @@
+section {
+    display: grid;
+    grid-template-columns: 100px auto 30% 1fr;
+    grid-template-rows: 100px auto 30% 1fr;
+    align-items: center;
+    background-color: lightblue;
+    color: black;
+    width: 50%;
+    height: 100px;
+    margin: 20px;
+  }
+  
+  p {
+    color: rgb(255, 0, 0);
+  }
+  
+  p:hover {
+    color: rgb(38, 255, 0);
+  }
